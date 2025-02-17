@@ -1,0 +1,213 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   AchieveHub
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="font-roboto bg-gray-100">
+  <!-- Top Navigation -->
+  <nav class="bg-blue-600 p-4 text-white">
+   <div class="container mx-auto flex justify-between items-center">
+    <a class="text-2xl font-bold" href="#">
+     AchieveHub
+    </a>
+    <div class="hidden md:flex items-center">
+     <div>
+      <button class="bg-white text-blue-600 px-4 py-2 rounded" onclick="window.location.href='./index.html'">
+       Home
+      </button>
+      <button class="bg-white text-blue-600 px-4 py-2 rounded" onclick="window.location.href='./profile.html'">
+       Profile
+      </button>
+      <button class="bg-white text-blue-600 px-4 py-2 rounded" onclick="window.location.href='./store.html'">
+       Store
+      </button>
+     </div>
+     <div class="ml-4">
+      <button class="bg-white text-blue-600 px-4 py-2 rounded" onclick="window.location.href='./form.html'">
+       Secure Access
+      </button>
+     </div>
+    </div>
+    <div class="md:hidden">
+     <button id="menu-toggle" class="text-white focus:outline-none">
+      <i class="fas fa-bars">
+      </i>
+     </button>
+    </div>
+   </div>
+   <div id="mobile-menu" class="hidden md:hidden">
+    <a class="block px-4 py-2" href="#main">
+     Home
+    </a>
+    <a class="block px-4 py-2" href="#profile">
+     Profile
+    </a>
+    <a class="block px-4 py-2" href="#store">
+     Store
+    </a>
+    <div class="px-4 py-2">
+     <button class="bg-white text-blue-600 px-4 py-2 rounded w-full" onclick="window.location.href='form.html'">
+      Secure Access
+     </button>
+    </div>
+   </div>
+  </nav>
+  <!-- Main Page -->
+  <section class="container mx-auto p-4" id="main">
+   <h1 class="text-4xl font-bold mb-4">
+    Welcome to AchieveHub
+   </h1>
+   <p class="mb-4">
+    AchieveHub is your go-to platform for managing your academic achievements, accessing study materials, and tracking your progress. Stay updated with the latest features and tools to help you succeed.
+   </p>
+  </section>
+  <!-- Profile Page -->
+  <section class="container mx-auto p-4 mt-8" id="profile">
+   <h1 class="text-4xl font-bold mb-4">
+    Profile
+   </h1>
+   <div class="bg-white p-4 rounded shadow mb-4">
+    <h2 class="text-2xl font-bold mb-2">
+     Vault
+    </h2>
+    <p class="text-gray-700">
+     Your vault contains all your saved items and achievements.
+    </p>
+   </div>
+   <div class="bg-white p-4 rounded shadow">
+    <h2 class="text-2xl font-bold mb-2">
+     Points
+    </h2>
+    <p class="text-gray-700">
+     1. Late Submission Pass 📖
+     <br/>
+     🔹 Cost: 50 – 100 points
+     <br/>
+     🔹 Rules: Allows a student to submit an assignment 1–3 days late without penalty.
+     <br/>
+     🔹 Sample Point System:
+     <br/>
+    </p>
+    <ul class="list-disc list-inside ml-4">
+     <li>
+      1-day extension → 50 points
+     </li>
+     <li>
+      2-day extension → 75 points
+     </li>
+     <li>
+      3-day extension → 100 points
+     </li>
+    </ul>
+    <br/>
+    <p class="text-gray-700">
+     2. Extra Study Materials 📚
+     <br/>
+     🔹 Cost: 30 – 150 points (depends on material type)
+     <br/>
+     🔹 Rules: Unlock access to additional notes, summaries, or practice tests.
+     <br/>
+     🔹 Sample Point System:
+     <br/>
+    </p>
+    <ul class="list-disc list-inside ml-4">
+     <li>
+      Lecture Notes → 30 points
+     </li>
+     <li>
+      Exam Study Guide → 75 points
+     </li>
+     <li>
+      Practice Quizzes & Sample Answers → 100 points
+     </li>
+     <li>
+      Premium Study Package (All of the above) → 150 points
+     </li>
+    </ul>
+    <br/>
+    <p class="text-gray-700">
+     3. Retake a Quiz/Test 📝
+     <br/>
+     🔹 Cost: 200 – 500 points
+     <br/>
+     🔹 Rules: Allows a student to retake a failed quiz/test for a better score.
+     <br/>
+     🔹 Sample Point System:
+     <br/>
+    </p>
+    <ul class="list-disc list-inside ml-4">
+     <li>
+      Retake a Small Quiz → 200 points
+     </li>
+     <li>
+      Retake a Midterm Test → 350 points
+     </li>
+     <li>
+      Retake a Final Exam → 500 points (Limited use per semester)
+     </li>
+    </ul>
+    <br/>
+    <p class="text-gray-700">
+     Bonus: Earning Points System (Example)
+     <br/>
+    </p>
+    <ul class="list-disc list-inside ml-4">
+     <li>
+      Attending a class → 5 points per session
+     </li>
+     <li>
+      Participating in discussions → 10 points per class
+     </li>
+     <li>
+      Scoring high on an exam → 50 points for A grade
+     </li>
+     <li>
+      Helping a fellow student → 10-30 points (peer assistance program)
+     </li>
+    </ul>
+    <p class="text-gray-700 mt-4">
+     Note: The points system can be updated periodically based on feedback and new rules.
+    </p>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white p-4 mt-8">
+   <div class="container mx-auto text-center">
+    <p>
+     &copy; 2023 AchieveHub. All rights reserved.
+    </p>
+    <div class="mt-2">
+     <a class="mx-2" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="mx-2" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="mx-2" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   document.getElementById('menu-toggle').addEventListener('click', function() {
+     var menu = document.getElementById('mobile-menu');
+     if (menu.classList.contains('hidden')) {
+       menu.classList.remove('hidden');
+     } else {
+       menu.classList.add('hidden');
+     }
+   });
+  </script>
+ </body>
+</html>
