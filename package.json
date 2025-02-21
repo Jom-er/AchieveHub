@@ -1,0 +1,22 @@
+{
+  "name": "achievehub",
+  "version": "1.0.0",
+  "description": "AchieveHub is an all-in-one platform where students can track their academic progress, earn points, and redeem rewards for their hard work. Whether you're looking for study resources, goal tracking, or an interactive way to stay motivated, AchieveHub makes learning fun and rewarding. Join now and start turning your achievements into real benefits!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "mysql2": "^3.12.0"
+  }
+}
